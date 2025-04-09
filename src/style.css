@@ -1,0 +1,22 @@
+/*
+* File: style.css
+* Author: Vámosi László Ádám
+* Copyright: 2025, Vámosi László Ádám
+* Group: Szoft I-N
+* Date: 2025-04-09
+* Github: https://github.com/vamosilaszloadam/
+* Licenc: MIT
+*/
+
+.container {
+    background-color: aqua;
+    height: 100dvh;
+}
+
+.about {
+    background-color: gold;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    border: 3px solid red;
+}

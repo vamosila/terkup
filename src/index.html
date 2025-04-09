@@ -1,0 +1,55 @@
+<!-- 
+* File: index.html
+* Author: Vámosi László Ádám
+* Copyright: 2025, Vámosi László Ádám
+* Group: Szoft I-N
+* Date: 2025-04-09
+* Github: https://github.com/vamosilaszloadam/
+* Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>terkup</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kúp</h1>
+    <p>
+      Kör alapú kúp térfogata.
+    </p>
+
+    <div>
+      <div class="input">
+        <label for="radius" class="form-label">Sugár</label>
+        <input type="text" id="radius" class="form-control">
+      </div>
+      <div class="input">
+        <label for="height" class="form-label">Magasság</label>
+        <input type="text" id="height" class="form-control">
+      </div>
+      <div>
+        <button id="calcButton" class="btn btn-primary mt-2">Számít</button>
+      </div>
+      <div class="input">
+        <label for="volume" class="form-label">Térfogat</label>
+        <input type="text" id="volume" class="form-control" readonly>
+      </div>
+    </div>
+
+    <!-- Névjegy -->
+
+    <div class="about mt-5">
+      Vámosi László Ádám, I-N, 2025-04-09
+    </div>
+
+  </div>
+  <script src="bootstrap.js"></script>
+  <script src="app.js"></script>  
+</body>
+</html>
